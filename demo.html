@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://logodix.com/logo/336725.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <!-- bootstrap cdn links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../src/index.css">
+    <!--  -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">  
+    <!-- bootstrap cdn links -->
+    <!--start: google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  
+    <!-- End: google fonts -->
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Page To Image</title>
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mx-auto" style="margin-Top: 5%">
+                        <div class="card login-form">
+                            <div class="login_card_body card-body">
+                                <NavLink exact to="#" class="navbar-brand"><img src='https://logodix.com/logo/336725.png' alt="logo" class="logo" /></NavLink>
+                                <div class="card-text">
+                                    <form id='form'>
+                                        <div class="form-group text-left">
+                                            <label htmlFor="exampleInputEmail1" required>Email address</label>
+                                            <input type="email" class="form-control form-control-md mx-auto" placeholder="email" id="email" aria-describedby="emailHelp" />
+                                            <i class="fas fa-check-circle"></i>
+                                            <i class="fas fa-exclamation-circle"></i>
+                                            <small>Error Message</small>
+
+
+                                        </div>
+                                        <div class="form-group text-left">
+                                            <label htmlFor="exampleInputPassword1" required>Password</label>
+                                            <input type="password" class="form-control form-control-md mx-auto" placeholder="password" id="password" />
+                                            <i class="fas fa-check-circle"></i>
+                                            <i class="fas fa-exclamation-circle"></i>
+                                            <small>Error Message</small>
+                                            
+                                        </div>
+                                        <div class="form-group text-left">
+                                            <label htmlFor="exampleInputPassword1" required>Retype Password</label>
+                                            <input type="password" class="form-control form-control-md mx-auto" placeholder="Retype password" id="re_password" />
+                                            <i class="fas fa-check-circle"></i>
+                                            <i class="fas fa-exclamation-circle"></i>
+                                            <small>Error Message</small>
+                                           
+                                        </div>
+                                        <NavLink exact to="/login"> <button type="submit" class="btn btn-primary submit btn-block mx-auto my-2">Sign in</button></NavLink>
+                                        <div class="sign-up my-2">or sign up with 
+
+                                            <div class="footer-social-icon my-2">
+                                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                                <a href="#"><i class="fab fa-google google-bg"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="sign-up my-2">Already have an account? <NavLink exact to="/login">Log in</NavLink>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script>
+            
+            const form = document.getElementById('form');
+const email = document.getElementById('email');
+const re_password = document.getElementById('re_password');
+const password = document.getElementById('password');
+
+// add Event
+form.addEventListener('submit',(event)=>{
+    event.preventDefault();
+    validate();
+})
+
+// define validate function
+    const validate = ()=>{
+        const formVal = form.value.trim();
+        const emailVal = email.value.trim();
+        const re_passwordVal = re_password.value.trim();
+        const passwordVal = password.value.trim();
+    }
+
+
+// validating email
+
+const isEmail = (emailVal) =>{
+    var atSymbol = emailVal.indexOf('@');
+    if(atSymbol < 1) return false;
+    var dot =emailVal.lastIndexOf('.');
+    if(dot <= atSymbol + 2) return false;
+    if(dot === emailVal.length - 1 ) return false;
+    return true;
+};
+
+if( emailVal === ""){
+    setErrorMsg(email,'User Name cant not blank');
+}
+else if(  !isEmail(emailVal)){
+    setErrorMsg(emailVal,'not a valid email');
+}
+else{
+    setSuccessMsg(email);
+}
+
+const setSuccessMsg =(input,errormsgs)=>{
+    const formControl = input.parentElement;
+    const small = formControl.querySeletor('small');
+    formControl.class = "form-group.error";
+    small.innerText = errormsgs;
+}
+
+
+
+        </script>
+    </body>
+</html>
