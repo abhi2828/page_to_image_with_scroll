@@ -22,7 +22,7 @@ const Login = () => {
                                     <small>Error Message</small>
                                 </div>
                                 <NavLink to="/forgot_password" class="my-2" style={{ float: 'right', fontSize: 12 }}>Forgot password?</NavLink>
-                                <navlink exact to="/dashboard" onclick='Validation()'><button>Log in</button></navlink>
+                                <NavLink exact to="/Usage" onclick='Validation()'><button>Log in</button></NavLink>
                                 <div classname="sign-up my-2">or sign up with
                                 <div className="footer-social-icon my-2">
                                         <a href="#"><i className="fab fa-facebook-f facebook-bg" /></a>
@@ -30,7 +30,7 @@ const Login = () => {
                                         <a href="#"><i className="fab fa-google google-bg" /></a>
                                     </div>
                                 </div>
-                                <div classname="sign-up my-2">New to Page To Image? <navlink exact to="/sign_up">Create an account.</navlink>
+                                <div classname="sign-up my-2">New to Page To Image? <NavLink exact to="/sign_up">Create an account.</NavLink>
                                 </div>
                             </form>
                         </div>

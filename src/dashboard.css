@@ -11,6 +11,27 @@ html {
   .outer_body {
     overflow-x: hidden;
   }
+  .query_input{
+    border: 1px solid #ced4da;
+  }
+  .custom-checkbox .custom-control-label::before {
+    border: 0.21px solid black;
+}
+kbd {
+  padding: .2rem .4rem;
+  font-size: 87.5%;
+  color: #fff;
+  background-color: #5c4cad;
+  border-radius: .2rem;
+}
+.btn-primary.disabled, .btn-primary:disabled{
+  color: #fff;
+  background-color: #5c4cad;
+  border-color: #5c4cad;
+}
+.text-primary {
+  color: #5c4cad!important;
+}
   .navbar {
     padding: 30px 1rem !important;
   }
@@ -20,9 +41,9 @@ html {
   .outer_body.sticky-footer {
     margin-bottom: 56px;
   }
-  .dash_board_active{
-    background: #5c4cad;
-  }
+  .dash_board_active {
+    background: #9288c7;
+}
   .dashboard_graph{
     width: 100% !important;margin-left: -30px !important;
   }

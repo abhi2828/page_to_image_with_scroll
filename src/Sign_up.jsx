@@ -27,7 +27,7 @@ const Sign_up = () => {
                                     <input type="password" id="password2" placeholder="Enter password again" />
                                     <small>Error Message</small>
                                 </div>
-                                <navlink exact to="/login" onclick='Validation()'><button>Submit</button></navlink>
+                                <NavLink exact to="/login" onclick='Validation()'><button>Submit</button></NavLink>
                                 <div classname="sign-up my-2">or sign up with
                                 <div className="footer-social-icon my-2">
                                         <a href="#"><i className="fab fa-facebook-f facebook-bg" /></a>
@@ -35,7 +35,7 @@ const Sign_up = () => {
                                         <a href="#"><i className="fab fa-google google-bg" /></a>
                                     </div>
                                 </div>
-                                <div classname="sign-up my-2">Already have an account? <navlink exact to="/login" style={{color:'#2885c3'}} >Log in</navlink>
+                                <div classname="sign-up my-2">Already have an account? <NavLink exact to="/login" style={{color:'#2885c3'}} >Log in</NavLink>
                                 </div>
                             </form>
                         </div>
