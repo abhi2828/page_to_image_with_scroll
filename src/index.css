@@ -43,19 +43,12 @@ body {
     margin-bottom: -1px;
       height: 130px;
       width: 100%;
-      margin-left: -30px;
   }
-  .svg2,.svg{
-    margin-bottom: -1px;
-      height: 130px;
-      width: 100%;
-      margin-left: -30px;
-  }
+ 
   .svg{
       margin-bottom: -1px;
       height: 70px;
       width: 100%;
-      margin-left: -30px;
   }
   .container2{
       z-index: 3;
@@ -755,6 +748,12 @@ h2{
   }
   
   @media screen and (max-width: 768px) {
+    .SvgRow1{
+      margin-left: 30px;
+    }
+    .SvgRow2{
+      margin-left: 70px;
+    }
     .banner_items_video iframe{
       display: none;
     }
