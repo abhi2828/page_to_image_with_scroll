@@ -100,7 +100,7 @@ const Query_builder = () => {
                 <div className="col my-auto">
                   <input id="ttl" name="ttl" placeholder={86400} type="text" defaultValue={86400} className="form-control query_input" />
                 </div>
-                <div className="col ml-2 mt-2"><small className="text-muted">seconds</small></div>
+                <div className="col ml-2 mt-2" style={{textAlign:'initial',fontSize: '20px'}}><small className="text-muted">seconds</small></div>
               </div>
               <div className="form-group row no-gutters">
                 <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="Force the API to capture a fresh new screenshot instead of returning a screenshot from the cache." data-original-title title>
@@ -142,7 +142,7 @@ const Query_builder = () => {
                 <div className="col my-auto">
                   <input id="width" name="width" placeholder={1920} type="number" defaultValue={1920} className="form-control query_input" />
                 </div>
-                <div className="col ml-2 mt-2"><small className="text-muted">pixels</small></div>
+                <div className="col ml-2 mt-2" style={{textAlign:'initial',fontSize: '20px'}}><small className="text-muted">pixels</small></div>
               </div>
               <div className="form-group row no-gutters">
                 <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="The height, in pixels, of the viewport to use. <span class=&quot;text-muted&quot;>This is ignored if <kbd>full_page</kbd> is <code>true</code>.</span>" data-original-title title> height </kbd>
@@ -150,7 +150,7 @@ const Query_builder = () => {
                 <div className="col my-auto">
                   <input id="height" name="height" placeholder={1080} type="number" defaultValue={1080} className="form-control query_input" />
                 </div>
-                <div className="col ml-2 mt-2"><small className="text-muted">pixels</small></div>
+                <div className="col ml-2 mt-2" style={{textAlign:'initial',fontSize: '20px'}}><small className="text-muted">pixels</small></div>
               </div>
               <div className="form-group row no-gutters">
                 <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="The delay, in seconds, to wait after the page is loaded <span class=&quot;text-muted&quot;>(<code>load</code> event fired and no more network connections for at least 500ms)</span> before capturing the screenshot. <span class=&quot;text-muted&quot;>From 0 seconds to a maximum of 10 seconds.</span>" data-original-title title>
@@ -159,7 +159,7 @@ const Query_builder = () => {
                 <div className="col my-auto">
                   <input id="delay" name="delay" placeholder={0} type="number" defaultValue={0} className="form-control query_input" />
                 </div>
-                <div className="col ml-2 mt-2"><small className="text-muted">seconds</small></div>
+                <div className="col ml-2 mt-2" style={{textAlign:'initial',fontSize: '20px'}}><small className="text-muted">seconds</small></div>
               </div>
               <div className="form-group row no-gutters">
                 <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="Wait until the provided CSS selector matches an element present in the page before capturing a screenshot. The process times out after 40 seconds." data-original-title title>
@@ -352,7 +352,7 @@ const Query_builder = () => {
                 <div className="col my-auto">
                   <input id="accuracy" name="accuracy" placeholder={0} type="number" defaultValue={0} className="form-control query_input" />
                 </div>
-                <div className="col ml-2 mt-2"><small className="text-muted">meters</small></div>
+                <div className="col ml-2 mt-2" style={{textAlign:'initial',fontSize: '20px'}}><small className="text-muted">meters</small></div>
               </div>
               <div className="form-group row no-gutters">
                 <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="A comma separated list of HTTP status codes that should make the API call fail instead of returning a screenshot. <span class=&quot;text-muted&quot;>Hyphen separated HTTP status codes can be used to define ranges. For example <code>400,404,500-511</code> would make the API call fail if the URL returns 400, 404 or any status code between 500 and 511.</span>" data-original-title title>
