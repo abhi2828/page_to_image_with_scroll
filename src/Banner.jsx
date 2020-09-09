@@ -132,7 +132,7 @@ const Banner = () => {
                                 <div className="col-md-4 ml-auto pricing-box align-self-center">
                                     <div className="card mb-4">
                                         <div className="card-body card-body-height p-4 text-center">
-                                            <h5 className="font-weight-normal">Basic</h5>
+                                            <h3 className="font-weight-normal">Basic</h3>
                                             <sup>$</sup><span className="text-dark display-5">0</span><sub>/ mon</sub>
                                             <div class="columns">
                                                 <ul class="pricecards">
@@ -150,7 +150,7 @@ const Banner = () => {
                                 <div className="col-md-4 ml-auto pricing-box align-self-center">
                                     <div className="card mb-4">
                                         <div className="card-body card-body-height p-4 text-center">
-                                            <h5 className="font-weight-normal">Premimum <sup style={{ top: '-4px' }}>*</sup></h5>
+                                            <h3 className="font-weight-normal">Premimum <sup style={{ top: '-10px' }}>*</sup></h3>
                                             <sup>$</sup><span className="text-dark display-5">10</span><sub>/ mon</sub>
                                             <div class="columns">
                                                 <ul class="pricecards">
@@ -169,7 +169,7 @@ const Banner = () => {
                                 <div className="col-md-4 ml-auto pricing-box align-self-center">
                                     <div className="card mb-4">
                                         <div className="card-body card-body-height p-4 text-center">
-                                            <h5 className="font-weight-normal">Enterprise</h5>
+                                            <h3 className="font-weight-normal">Enterprise</h3>
                                             <sup>$</sup><span className="text-dark display-5">50</span><sub>/ mon</sub>
                                             <div class="columns">
                                                 <ul class="pricecards">
