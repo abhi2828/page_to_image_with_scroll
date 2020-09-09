@@ -13,12 +13,12 @@ const Login = () => {
                             <NavLink exact to="#" className="navbar-brand"><img src='https://pageimages.s3.ap-south-1.amazonaws.com/header+log.svg' alt="logo" className="logo" /></NavLink>
                                 <div className="form-control">
                                     <label htmlFor="email">Email</label>
-                                    <input type="text" id="email" placeholder="Enter email" />
+                                    <input type="text" id="email" placeholder="Enter email" value="Admin" />
                                     <small>Error Message</small>
                                 </div>
                                 <div className="form-control">
                                     <label htmlFor="password">Password</label>
-                                    <input type="password" id="password" placeholder="Enter password" />
+                                    <input type="password" id="password" placeholder="Enter password" value="Admin" />
                                     <small>Error Message</small>
                                 </div>
                                 <NavLink to="/forgot_password" class="my-2" style={{ float: 'right', fontSize: 12 }}>Forgot password?</NavLink>
