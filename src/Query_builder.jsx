@@ -9,7 +9,7 @@ const Query_builder = () => {
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
                     <NavLink exact to="" className="navbar-brand"><img src=' https://pageimages.s3.ap-south-1.amazonaws.com/header+log.svg' alt="logo" className="logo" /></NavLink>
                     <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style={{ background: '#5c4cad' }}>
-                        <i class="fas fa-bars"></i>
+                        <i className="fas fa-bars"></i>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarResponsive">
                         <ul className="navbar-nav navbar-sidenav" id="exampleAccordion">
@@ -33,7 +33,7 @@ const Query_builder = () => {
                             </li>
                             <li className="nav-item dash_board" data-toggle="tooltip" data-placement="right" title="Usage">
                                  <NavLink exact to="/usage" className="nav-link" >
-                                    {/* <i class="fas fa-chart-pie  mr-3"></i> */}
+                                    {/* <i className="fas fa-chart-pie  mr-3"></i> */}
                                     <svg xmlns="http://www.w3.org/2000/svg" height={24} viewBox="0 0 24 24" width={24}><path d="M0 0h24v24H0z" fill="none" /><path fill="black" d="M13 2.05v3.03c3.39.49 6 3.39 6 6.92 0 .9-.18 1.75-.48 2.54l2.6 1.53c.56-1.24.88-2.62.88-4.07 0-5.18-3.95-9.45-9-9.95zM12 19c-3.87 0-7-3.13-7-7 0-3.53 2.61-6.43 6-6.92V2.05c-5.06.5-9 4.76-9 9.95 0 5.52 4.47 10 9.99 10 3.31 0 6.24-1.61 8.06-4.09l-2.6-1.53C16.17 17.98 14.21 19 12 19z" /></svg><span className="ml-3" style={{ position: "absolute" }}>Usage</span>
                                 </NavLink>
                             </li>
@@ -86,7 +86,7 @@ const Query_builder = () => {
                 </div>
               </div>
               <div className="form-group row no-gutters">
-                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="The complete URL of the website for which you want to capture a screenshot. <span class=&quot;text-muted&quot;>The URL must include the protocol (<code>http://</code> or <code>https://</code>) to be processed correctly.</span>" data-original-title title>
+                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="The complete URL of the website for which you want to capture a screenshot. <span className=&quot;text-muted&quot;>The URL must include the protocol (<code>http://</code> or <code>https://</code>) to be processed correctly.</span>" data-original-title title>
                     url
                   </kbd></div>
                 <div className="col my-auto">
@@ -94,7 +94,7 @@ const Query_builder = () => {
                 </div>
               </div>
               <div className="form-group row no-gutters">
-                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="Number of seconds the screenshot is cached. API calls with the same parameters do return a cached screenshot and don't count in your monthly quota. <span class=&quot;text-muted&quot;>From 0 seconds to 2592000 seconds (30 days).</span>" data-original-title title>
+                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="Number of seconds the screenshot is cached. API calls with the same parameters do return a cached screenshot and don't count in your monthly quota. <span className=&quot;text-muted&quot;>From 0 seconds to 2592000 seconds (30 days).</span>" data-original-title title>
                     ttl
                   </kbd></div>
                 <div className="col my-auto">
@@ -125,7 +125,7 @@ const Query_builder = () => {
                 </div>
               </div>
               <div className="form-group row no-gutters">
-                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="Set this parameter to <code>true</code> to scroll through the entire page before capturing a screenshot. <span class=&quot;text-muted&quot;>This is useful to trigger animations or lazy loaded elements.</span>" data-original-title title>
+                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="Set this parameter to <code>true</code> to scroll through the entire page before capturing a screenshot. <span className=&quot;text-muted&quot;>This is useful to trigger animations or lazy loaded elements.</span>" data-original-title title>
                     scroll_page
                   </kbd></div>
                 <div className="col my-auto">
@@ -145,7 +145,7 @@ const Query_builder = () => {
                 <div className="col ml-2 mt-2" style={{textAlign:'initial',fontSize: '20px'}}><small className="text-muted">pixels</small></div>
               </div>
               <div className="form-group row no-gutters">
-                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="The height, in pixels, of the viewport to use. <span class=&quot;text-muted&quot;>This is ignored if <kbd>full_page</kbd> is <code>true</code>.</span>" data-original-title title> height </kbd>
+                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="The height, in pixels, of the viewport to use. <span className=&quot;text-muted&quot;>This is ignored if <kbd>full_page</kbd> is <code>true</code>.</span>" data-original-title title> height </kbd>
                 </div>
                 <div className="col my-auto">
                   <input id="height" name="height" placeholder={1080} type="number" defaultValue={1080} className="form-control query_input" />
@@ -153,7 +153,7 @@ const Query_builder = () => {
                 <div className="col ml-2 mt-2" style={{textAlign:'initial',fontSize: '20px'}}><small className="text-muted">pixels</small></div>
               </div>
               <div className="form-group row no-gutters">
-                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="The delay, in seconds, to wait after the page is loaded <span class=&quot;text-muted&quot;>(<code>load</code> event fired and no more network connections for at least 500ms)</span> before capturing the screenshot. <span class=&quot;text-muted&quot;>From 0 seconds to a maximum of 10 seconds.</span>" data-original-title title>
+                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="The delay, in seconds, to wait after the page is loaded <span className=&quot;text-muted&quot;>(<code>load</code> event fired and no more network connections for at least 500ms)</span> before capturing the screenshot. <span className=&quot;text-muted&quot;>From 0 seconds to a maximum of 10 seconds.</span>" data-original-title title>
                     delay
                   </kbd></div>
                 <div className="col my-auto">
@@ -197,11 +197,11 @@ const Query_builder = () => {
               <div className="form-group row no-gutters">
                 <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="
   The type of response to return. Can be either <code>image</code> or <code>json</code>. <br/>
-  <span class=&quot;text-muted&quot;><ul class=&quot;mt-2 mb-0&quot;><li>If the response type is <code>image</code>, the binary data of the 
+  <span className=&quot;text-muted&quot;><ul className=&quot;mt-2 mb-0&quot;><li>If the response type is <code>image</code>, the binary data of the 
   screenshot is returned with the appropriate <code>Content-Type</code> and <code>Content-Length</code> headers.</li>
-  <li>If the response type is <code>json</code>, the response is a json document<span class=&quot;d-lg-none&quot;>.</span> 
-  <span class=&quot;d-none d-lg-inline&quot;>formatted as follows:  
-  <pre class=&quot;border mt-2 mb-0&quot;><code class=&quot;json&quot;>{
+  <li>If the response type is <code>json</code>, the response is a json document<span className=&quot;d-lg-none&quot;>.</span> 
+  <span className=&quot;d-none d-lg-inline&quot;>formatted as follows:  
+  <pre className=&quot;border mt-2 mb-0&quot;><code className=&quot;json&quot;>{
 &quot;url&quot;: &quot;https://url_of_screenshot_image...&quot;,
 &quot;extracted_html&quot;: &quot;https://url_of_extracted_html_here...&quot;,
 &quot;extracted_text&quot;: &quot;https://url_of_extracted_text_here...&quot; 
@@ -241,14 +241,14 @@ const Query_builder = () => {
                 </div>
               </div>
               <div className="form-group row no-gutters">
-                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="The width, in pixels, of the thumbnail to generate. The aspect ratio will be preserved. <span class=&quot;text-muted&quot;>This is ignored if <kbd>full_page</kbd> is <code>true</code>.</span>" data-original-title title> thumbnail_width </kbd>
+                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="The width, in pixels, of the thumbnail to generate. The aspect ratio will be preserved. <span className=&quot;text-muted&quot;>This is ignored if <kbd>full_page</kbd> is <code>true</code>.</span>" data-original-title title> thumbnail_width </kbd>
                 </div>
                 <div className="col my-auto">
                   <input id="thumbnail_width" name="thumbnail_width" placeholder type="number" defaultValue className="form-control query_input" />
                 </div>
               </div>
               <div className="form-group row no-gutters">
-                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="The device scale factor to use when capturing the screenshot. A scale factor of <code>2</code> will produce a high definition screenshot suited to be displayed on retina devices. <span class=&quot;text-muted&quot;>The bigger the scale factor is, the heavier the produced screenshot will be.</span>" data-original-title title>
+                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="The device scale factor to use when capturing the screenshot. A scale factor of <code>2</code> will produce a high definition screenshot suited to be displayed on retina devices. <span className=&quot;text-muted&quot;>The bigger the scale factor is, the heavier the produced screenshot will be.</span>" data-original-title title>
                     scale_factor
                   </kbd></div>
                 <div className="col my-auto">
@@ -256,7 +256,7 @@ const Query_builder = () => {
                 </div>
               </div>
               <div className="form-group row no-gutters">
-                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="A CSS string to inject in the web page when capturing the screenshot. <span class=&quot;text-muted&quot;>This CSS string needs to be URL encoded to be processed correctly.</span>" data-original-title title>
+                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="A CSS string to inject in the web page when capturing the screenshot. <span className=&quot;text-muted&quot;>This CSS string needs to be URL encoded to be processed correctly.</span>" data-original-title title>
                     css
                   </kbd></div>
                 <div className="col my-auto">
@@ -264,7 +264,7 @@ const Query_builder = () => {
                 </div>
               </div>
               <div className="form-group row no-gutters">
-                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="Additional JavaScript code to be injected into the page before capturing. <span class=&quot;text-muted&quot;>The JS string needs to be URL encoded to be processed correctly.</span>" data-original-title title>
+                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="Additional JavaScript code to be injected into the page before capturing. <span className=&quot;text-muted&quot;>The JS string needs to be URL encoded to be processed correctly.</span>" data-original-title title>
                     js
                   </kbd></div>
                 <div className="col my-auto">
@@ -300,7 +300,7 @@ const Query_builder = () => {
                 </div>
               </div>
               <div className="form-group row no-gutters">
-                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="Sets the <code>User-Agent</code> header to emulate a particular device when making screenshots. <span class=&quot;text-muted&quot;>It should be URL encoded to be processed correctly.</span>" data-original-title title>
+                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="Sets the <code>User-Agent</code> header to emulate a particular device when making screenshots. <span className=&quot;text-muted&quot;>It should be URL encoded to be processed correctly.</span>" data-original-title title>
                     user_agent
                   </kbd></div>
                 <div className="col my-auto">
@@ -308,21 +308,21 @@ const Query_builder = () => {
                 </div>
               </div>
               <div className="form-group row no-gutters">
-                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="A semicolon separated list of headers to be used when capturing the screenshot. Each header should be supplied as a key value pair and multiple pairs should be separated by a semicolon. The <kbd>headers</kbd> parameter value should be URL encoded to be processed correctly. <span class=&quot;text-muted&quot;>For example, <code>Header1=value1;Header2=value2</code> would have to be URL encoded into <code>Header1%3Dvalue1%3BHeader2%3Dvalue2</code>.</span>" data-original-title title> headers </kbd>
+                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="A semicolon separated list of headers to be used when capturing the screenshot. Each header should be supplied as a key value pair and multiple pairs should be separated by a semicolon. The <kbd>headers</kbd> parameter value should be URL encoded to be processed correctly. <span className=&quot;text-muted&quot;>For example, <code>Header1=value1;Header2=value2</code> would have to be URL encoded into <code>Header1%3Dvalue1%3BHeader2%3Dvalue2</code>.</span>" data-original-title title> headers </kbd>
                 </div>
                 <div className="col my-auto">
                   <input id="headers" name="headers" placeholder type="text" defaultValue className="form-control query_input" />
                 </div>
               </div>
               <div className="form-group row no-gutters">
-                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="A semicolon separated list of cookies to be used when capturing the screenshot. Each cookie should be supplied as a name value pair and multiple pairs should be separated by a semicolon. The <kbd>cookies</kbd> parameter value should be URL encoded to be processed correctly. <span class=&quot;text-muted&quot;>For example, <code>cookie1=value1;cookie2=value2</code> would have to be URL encoded into <code>cookie1%3Dvalue1%3Bcookie2%3Dvalue2</code>.</span>" data-original-title title> cookies </kbd>
+                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="A semicolon separated list of cookies to be used when capturing the screenshot. Each cookie should be supplied as a name value pair and multiple pairs should be separated by a semicolon. The <kbd>cookies</kbd> parameter value should be URL encoded to be processed correctly. <span className=&quot;text-muted&quot;>For example, <code>cookie1=value1;cookie2=value2</code> would have to be URL encoded into <code>cookie1%3Dvalue1%3Bcookie2%3Dvalue2</code>.</span>" data-original-title title> cookies </kbd>
                 </div>
                 <div className="col my-auto">
                   <input id="cookies" name="cookies" placeholder type="text" defaultValue className="form-control query_input" />
                 </div>
               </div>
               <div className="form-group row no-gutters">
-                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="An ISO alpha-2 country code designating the country that should be associated with the IP address of the proxy through which the screenshot is captured. <span class=&quot;text-muted&quot;>This feature is only available for custom enterprise plans. Get in touch with us if you need it.</span>" data-original-title title>
+                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="An ISO alpha-2 country code designating the country that should be associated with the IP address of the proxy through which the screenshot is captured. <span className=&quot;text-muted&quot;>This feature is only available for custom enterprise plans. Get in touch with us if you need it.</span>" data-original-title title>
                     ip_location
                   </kbd></div>
                 <div className="col my-auto">
@@ -355,7 +355,7 @@ const Query_builder = () => {
                 <div className="col ml-2 mt-2" style={{textAlign:'initial',fontSize: '20px'}}><small className="text-muted">meters</small></div>
               </div>
               <div className="form-group row no-gutters">
-                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="A comma separated list of HTTP status codes that should make the API call fail instead of returning a screenshot. <span class=&quot;text-muted&quot;>Hyphen separated HTTP status codes can be used to define ranges. For example <code>400,404,500-511</code> would make the API call fail if the URL returns 400, 404 or any status code between 500 and 511.</span>" data-original-title title>
+                <div className="col-sm-5 col-form-label text-right mr-3"><kbd data-html="true" data-trigger="hover" data-toggle="popover" data-placement="left" data-content="A comma separated list of HTTP status codes that should make the API call fail instead of returning a screenshot. <span className=&quot;text-muted&quot;>Hyphen separated HTTP status codes can be used to define ranges. For example <code>400,404,500-511</code> would make the API call fail if the URL returns 400, 404 or any status code between 500 and 511.</span>" data-original-title title>
                     fail_on_status
                   </kbd></div>
                 <div className="col my-auto">
@@ -421,7 +421,7 @@ const Query_builder = () => {
             <br />
             <br /> <NavLink exact to='' onclick="event.preventDefault(); $crisp.push(['do', 'chat:open'])" className="af-pointer" style={{color:'rgb(92 76 173)'}}>
               Chat with us live
-              <i class="fas fa-comment-alt" style={{margin:'0 10px'}}></i></NavLink> or check the <NavLink exact to="/faq" style={{color:'rgb(92 76 173)'}}>FAQ</NavLink>. </div>
+              <i className="fas fa-comment-alt" style={{margin:'0 10px'}}></i></NavLink> or check the <NavLink exact to="/faq" style={{color:'rgb(92 76 173)'}}>FAQ</NavLink>. </div>
         </div>
       </div>
     </div>

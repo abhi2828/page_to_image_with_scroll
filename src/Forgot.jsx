@@ -5,9 +5,9 @@ const Forgot = () => {
     return (
         <>
             <section>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4 mx-auto " style={{ marginTop: '5%' }}>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-4 mx-auto " style={{ marginTop: '5%' }}>
                             <div className="card login-form">
                                 <div className="login_card_body card-body">
                                     <NavLink exact to="/" className="navbar-brand"><img src='https://pageimages.s3.ap-south-1.amazonaws.com/header+log.svg' alt="logo" className="logo" /></NavLink>

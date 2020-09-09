@@ -6,7 +6,7 @@ import Validation from './Validation';
 const Sign_up = () => {
     return (
         <>
-            <section class="section_form">
+            <section className="section_form">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-5 mx-auto">

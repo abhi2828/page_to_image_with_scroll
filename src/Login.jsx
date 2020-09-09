@@ -5,7 +5,7 @@ import Validation from './Validation';
 const Login = () => {
     return ( 
         <>
-            <section class="section_form">
+            <section className="section_form">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-5 mx-auto">
@@ -21,7 +21,7 @@ const Login = () => {
                                     <input type="password" id="password" placeholder="Enter password" value="Admin" />
                                     <small>Error Message</small>
                                 </div>
-                                <NavLink to="/forgot_password" class="my-2" style={{ float: 'right', fontSize: 12 }}>Forgot password?</NavLink>
+                                <NavLink to="/forgot_password" className="my-2" style={{ float: 'right', fontSize: 12 }}>Forgot password?</NavLink>
                                 <NavLink exact to="/Usage" onclick='Validation()'><button>Log in</button></NavLink>
                                 <div classname="sign-up my-2">or sign up with
                                 <div className="footer-social-icon my-2">

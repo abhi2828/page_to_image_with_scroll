@@ -28,7 +28,7 @@ const Banner = () => {
             </section>
             <section className="section2">
                 <svg className="svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                    <path fill="#4d1c9c" fill-opacity="1"
+                    <path fill="#4d1c9c" fillOpacity="1"
                         d="M0,64L120,90.7C240,117,480,171,720,176C960,181,1200,139,1320,117.3L1440,96L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
                     </path>
                 </svg>
@@ -134,8 +134,8 @@ const Banner = () => {
                                         <div className="card-body card-body-height p-4 text-center">
                                             <h3 className="font-weight-normal">Basic</h3>
                                             <sup>$</sup><span className="text-dark display-5">0</span><sub>/ mon</sub>
-                                            <div class="columns">
-                                                <ul class="pricecards">
+                                            <div className="columns">
+                                                <ul className="pricecards">
                                                     <li>200 Screenshots</li>
                                                     <li>Ticket Support</li>
                                                     <li>Basic API Access</li>
@@ -152,8 +152,8 @@ const Banner = () => {
                                         <div className="card-body card-body-height p-4 text-center">
                                             <h3 className="font-weight-normal">Premimum <sup style={{ top: '-10px' }}>*</sup></h3>
                                             <sup>$</sup><span className="text-dark display-5">10</span><sub>/ mon</sub>
-                                            <div class="columns">
-                                                <ul class="pricecards">
+                                            <div className="columns">
+                                                <ul className="pricecards">
                                                     <li>1500 Screenshots</li>
                                                     <li>Ticket & Live Chat Support</li>
                                                     <li>Premium API Access</li>
@@ -171,8 +171,8 @@ const Banner = () => {
                                         <div className="card-body card-body-height p-4 text-center">
                                             <h3 className="font-weight-normal">Enterprise</h3>
                                             <sup>$</sup><span className="text-dark display-5">50</span><sub>/ mon</sub>
-                                            <div class="columns">
-                                                <ul class="pricecards">
+                                            <div className="columns">
+                                                <ul className="pricecards">
                                                     <li>20,000 Screenshots</li>
                                                     <li>24/7 Free Support</li>
                                                     <li>Enterprise API Access</li>
@@ -191,15 +191,15 @@ const Banner = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
-                                <h5 class="card-title" style={{ marginTop: '3%' }}>
-                                    Custom Enterprise <span class="font-weight-light">Plan</span>
+                                <h5 className="card-title" style={{ marginTop: '3%' }}>
+                                    Custom Enterprise <span className="font-weight-light">Plan</span>
                                 </h5>
-                                <div class="d-flex justify-content-center align-items-center flex-column ">
+                                <div className="d-flex justify-content-center align-items-center flex-column ">
                                     <div>
                                         Need to make millions of screenshots?
                                     </div>
                                     <div style={{ marginTop: '1%' }}>
-                                        <a class="ml-0 ml-md-4 mt-3 mt-md-0 btn btn-primary" href="helo@pagetoimage.com">
+                                        <a className="ml-0 ml-md-4 mt-3 mt-md-0 btn btn-primary" href="helo@pagetoimage.com">
                                             Contact us
                                          </a>
                                     </div>

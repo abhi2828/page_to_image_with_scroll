@@ -21,9 +21,9 @@ const ScrollToTop = () => {
 
   return (
     <>
-      <div class="container-fluid">
+      <div className="container-fluid">
         <div className="text-right mx-auto scrollTop" onClick={scrollTop} style={{ height: 40, display: showScroll ? 'flex' : 'none' }}>
-          <i class="fas fa-arrow-circle-up arrow"></i>
+          <i className="fas fa-arrow-circle-up arrow"></i>
         </div>
       </div>
     </>

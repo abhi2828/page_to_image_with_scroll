@@ -9,9 +9,9 @@ function CommentCard(props) {
                         <div className="heading">
                             <div className="cardContent2">
                                 <p className="CommentCard">
-                                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                    <i className="fa fa-quote-left" aria-hidden="true"></i>
                                       {props.comment} 
-                                    <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                    <i className="fa fa-quote-right" aria-hidden="true"></i>
                                 </p>
                                 <p className="CustomerName">{props.name}</p>
                                 <p className="CustomerPost"> {props.post}</p>
