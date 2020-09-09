@@ -77,8 +77,6 @@ const Banner = () => {
                         </div>
                     </div>
                 </section>
-                <br />
-                <br />
                 <section className="colorsolSection">
                     <div className="container colorsolContainer">
                         <div className="row">

@@ -8,7 +8,7 @@ const Get_started = () => {
                 {/* Navigation*/}
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
                     <NavLink exact to="" className="navbar-brand"><img src=' https://pageimages.s3.ap-south-1.amazonaws.com/header+log.svg' alt="logo" className="logo" /></NavLink>
-                    <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style={{ background: '5c4cad' }}>
+                    <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style={{ background: '#5c4cad' }}>
                         <i class="fas fa-bars"></i>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarResponsive">
@@ -76,7 +76,7 @@ const Get_started = () => {
     <div className="col-md-12 text-center">
       <div className="card my-3">
         <div className="card-body">
-          <h2 className="font-weight-bold">Let's make your first screenshot!</h2>
+          <h2 className="font-weight-bold" style={{marginTop:' revert !important'}}>Let's make your first screenshot!</h2>
           <div className="d-flex flex-row align-items-center mt-3 mb-4">
             <div className="card bg-light mx-auto" data-original-title title>
               <div className="card-body">

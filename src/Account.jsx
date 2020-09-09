@@ -8,7 +8,7 @@ const Account = () => {
                 {/* Navigation*/}
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
                     <NavLink exact to="" className="navbar-brand"><img src=' https://pageimages.s3.ap-south-1.amazonaws.com/header+log.svg' alt="logo" className="logo" /></NavLink>
-                    <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style={{ background: '5c4cad' }}>
+                    <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style={{ background: '#5c4cad' }}>
                         <i class="fas fa-bars"></i>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarResponsive">
