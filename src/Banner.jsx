@@ -228,17 +228,17 @@ const Banner = () => {
                             <div className="col-md-2 SvgRow">
                                 <Technology className="svg" img={Demodata[7].img}/> 
                             </div>
-                            <div className="col-md-2 SvgRow">
+                            <div className="col-md-2 SvgRow" style={{marginLeft: '30px'}}>
                                 <Technology className="svg" img={Demodata[8].img}/>
                             </div>
-                            <div className="col-md-2 SvgRow">
+                            <div className="col-md-2 SvgRow" style={{marginLeft: '30px'}}>
                                 <Technology className="svg" img={Demodata[9].img}/>
                             </div>
-                            <div className="col-md-2 SvgRow">
+                            <div className="col-md-2 SvgRow" style={{marginLeft: '30px'}}>
                                 <Technology className="svg" img={Demodata[10].img}/>
                             </div>
-                            <div className="col-md-2 SvgRow">
-                                <Technology className="svg" img={Demodata[11].img}/>
+                            <div className="col-md-2 SvgRow" style={{marginLeft: '70px'}}>
+                                <Technology className="svg" img={Demodata[11].img} />
                             </div>
                             
                         </div>
