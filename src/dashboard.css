@@ -17,6 +17,13 @@ html {
   .custom-checkbox .custom-control-label::before {
     border: 0.21px solid black;
 }
+.Search{
+  border: 1px solid #5c4cad;
+  border-radius: 5px;
+}
+.nav_logOut{
+  color: #5c4cad !important;
+}
 kbd {
   padding: .2rem .4rem;
   font-size: 87.5%;

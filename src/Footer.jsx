@@ -24,7 +24,7 @@ const Footer = () => {
                                     <i className="far fa-envelope-open"></i>
                                     <div className="cta-text">
                                         <h4>Mail us</h4>
-                                        <span>helo@pagetoimage.com</span>
+                                        <a className="cta-text " href="mailto:helo@pagetoimage.com"> helo@pagetoimage.com</a>
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@ const Footer = () => {
                                         <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
                                     </div>
                                     <div className="subscribe-form">
-                                        <form action="#">
+                                        <form action="">
                                             <input type="text" placeholder="Email Address" />
                                             <button><i className="fab fa-telegram-plane"></i></button>
                                         </form>

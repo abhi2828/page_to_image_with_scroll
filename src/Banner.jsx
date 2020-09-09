@@ -184,7 +184,8 @@ const Banner = () => {
                                         </div>
                                         <a className="btn btn-info-gradiant p-3 btn-block border-0 text-white" href="#">CHOOSE PLAN </a>
                                     </div>
-                                </div></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -200,7 +201,7 @@ const Banner = () => {
                                         Need to make millions of screenshots?
                                     </div>
                                     <div style={{ marginTop: '1%' }}>
-                                        <a class="ml-0 ml-md-4 mt-3 mt-md-0 btn btn-primary" href="/contact">
+                                        <a class="ml-0 ml-md-4 mt-3 mt-md-0 btn btn-primary" href="helo@pagetoimage.com">
                                             Contact us
                                          </a>
                                     </div>

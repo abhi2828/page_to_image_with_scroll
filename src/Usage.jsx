@@ -52,7 +52,7 @@ const Usage = () => {
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
                                 <form className="form-inline my-2 my-lg-0 mr-lg-2">
-                                    <div className="input-group" style={{ border: '1px solid 5c4cad',borderRadius: '5px' }}>
+                                    <div className="input-group Search" >
                                         <input className="form-control" type="text" placeholder="  Search for..." />
                                         <span className="input-group-append">
                                             <button className="btn btn-primary" type="button">
@@ -63,7 +63,7 @@ const Usage = () => {
                                 </form>
                             </li>
                             <li className="nav-item">
-                                <NavLink exact to="/login" className="nav-link" style={{ color: '5c4cad' }}><i className="fas fa-sign-out-alt" /> Logout</NavLink>
+                                <NavLink exact to="/login" className="nav-link nav_logOut"><i className="fas fa-sign-out-alt" /> Logout</NavLink>
                             </li>
                         </ul>
                     </div>

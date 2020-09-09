@@ -13,7 +13,7 @@ const Get_started = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarResponsive">
                         <ul className="navbar-nav navbar-sidenav" id="exampleAccordion">
-                            <li className="nav-item dash_board" data-toggle="tooltip" data-placement="right" title="Get started">
+                            <li className="nav-item dash_board dash_board_active" data-toggle="tooltip" data-placement="right" title="Get started">
                                  <NavLink exact to="/Get_started" className="nav-link" >
                                     <i className="fas fa-external-link-alt mr-3" />
                                     <span className="nav-link-text">Get started</span>
@@ -31,7 +31,7 @@ const Get_started = () => {
                                     <span className="nav-link-text">Query builder</span>
                                 </NavLink>
                             </li>
-                            <li className="nav-item dash_board dash_board_active" data-toggle="tooltip" data-placement="right" title="Usage">
+                            <li className="nav-item dash_board " data-toggle="tooltip" data-placement="right" title="Usage">
                                  <NavLink exact to="/usage" className="nav-link" >
                                     {/* <i class="fas fa-chart-pie  mr-3"></i> */}
                                     <svg xmlns="http://www.w3.org/2000/svg" height={24} viewBox="0 0 24 24" width={24}><path d="M0 0h24v24H0z" fill="none" /><path fill="black" d="M13 2.05v3.03c3.39.49 6 3.39 6 6.92 0 .9-.18 1.75-.48 2.54l2.6 1.53c.56-1.24.88-2.62.88-4.07 0-5.18-3.95-9.45-9-9.95zM12 19c-3.87 0-7-3.13-7-7 0-3.53 2.61-6.43 6-6.92V2.05c-5.06.5-9 4.76-9 9.95 0 5.52 4.47 10 9.99 10 3.31 0 6.24-1.61 8.06-4.09l-2.6-1.53C16.17 17.98 14.21 19 12 19z" /></svg><span className="ml-3" style={{ position: "absolute" }}>Usage</span>
@@ -52,7 +52,7 @@ const Get_started = () => {
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
                                 <form className="form-inline my-2 my-lg-0 mr-lg-2">
-                                    <div className="input-group" style={{ border: '1px solid 5c4cad',borderRadius: '5px' }}>
+                                    <div className="input-group Search" >
                                         <input className="form-control" type="text" placeholder="  Search for..." />
                                         <span className="input-group-append">
                                             <button className="btn btn-primary" type="button">
@@ -63,7 +63,7 @@ const Get_started = () => {
                                 </form>
                             </li>
                             <li className="nav-item">
-                                <NavLink exact to="/login" className="nav-link" style={{ color: '5c4cad' }}><i className="fas fa-sign-out-alt" /> Logout</NavLink>
+                                <NavLink exact to="/login" className="nav-link nav_logOut"><i className="fas fa-sign-out-alt" /> Logout</NavLink>
                             </li>
                         </ul>
                     </div>
