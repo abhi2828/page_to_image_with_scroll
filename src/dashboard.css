@@ -54,6 +54,9 @@ kbd {
   .dash_board_active {
     background: #9288c7;
 }
+.dash_board:hover {
+  background: #9288c7;
+}
   .dashboard_graph{
     width: 100% !important;margin-left: -30px !important;
   }
