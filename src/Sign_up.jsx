@@ -11,7 +11,7 @@ const Sign_up = () => {
                     <div className="row">
                         <div className="col-md-5 mx-auto">
                             <form id="form" className="form card-body">
-                            <NavLink exact to="#" className="navbar-brand"><img src='https://pageimages.s3.ap-south-1.amazonaws.com/header+log.svg' alt="logo" className="logo" /></NavLink>
+                            <NavLink exact to="/" className="navbar-brand"><img src='https://pageimages.s3.ap-south-1.amazonaws.com/header+log.svg' alt="logo" className="logo" /></NavLink>
                                 <div className="form-control">
                                     <label htmlFor="email">Email</label>
                                     <input type="text" id="email" placeholder="Enter email" />
